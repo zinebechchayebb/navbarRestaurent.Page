@@ -1,0 +1,158 @@
+body{
+    background-image: url('rest.png.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h1{
+    position: relative;
+    font-size: 6em;
+    letter-spacing: 15px;
+    color: brown;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#060101);
+    line-height: 0,70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #a30b0b;
+        box-shadow: none;
+
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: azure;
+        box-shadow: 0 0 10px #a30b0b,
+        0 0 20px #a30b0b,
+        0 0 40px #a30b0b,
+        0 0 80px #a30b0b,
+        0 0 160px #a30b0b,
+
+
+
+
+    }
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: url('rest.png.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #0b0808;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.Logo{
+    font-size: 32px;
+    color: rgb(167, 2, 2);
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #f9f0f0;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #f9f0f0;
+    transition: .3s;
+
+
+}
+..navbar a:hover::before{
+    width: 100%;
+ }
+ .conteneur {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .bouton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #a90000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bouton:hover {
+    background-color: #ae000f;
+  }
+  .conteneur {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .reseaux-sociaux {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .social-logo {
+    display: inline-block;
+    margin-right: 10px; /* Marge entre les logos */
+  }
+  
+  .social-logo img {
+    width: 30px; /* Ajustez la taille des logos selon vos besoins */
+    height: auto;
+  }
+  
+
